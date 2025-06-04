@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: pink;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background:plum;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.about {
+    padding: 20px;
+    text-align:center;
+    color: #333;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 100px auto ;
+    max-width:2000px;
+    background: white;
+    border-radius: 102px;
+    box-shadow: 0 5px 10px rgba(247, 51, 220, 0.12);
+}
+
+h2{
+    color:plum
+}
+
+footer{
+    text-align:center;
+    padding: 20px;
+    background: #eee;
+}
