@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: pink;
+    background: rgb(255, 255, 255);
     color: #333;
     margin: 0;
     padding: 0;
@@ -25,16 +25,111 @@ section {
     margin: 100px auto ;
     max-width:2000px;
     background: white;
-    border-radius: 102px;
     box-shadow: 0 5px 10px rgba(247, 51, 220, 0.12);
 }
 
 h2{
-    color:plum
+    color:#e96be9
 }
 
 footer{
     text-align:center;
     padding: 20px;
     background: #eee;
+    font-weight: bold;
+}
+.social-links > a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #0056b3;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.social-links > a:hover {
+  color: #0077b5;
+  font-size: 22px; /
+}
+
+.social-links i {
+  margin-right: 8px;
+}
+
+/* Projects*/
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background: #f9f9f9;
+    border-left: 5px solid #e96be9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+.project-card:hover {
+    transform: translateY(-10px);
+}
+.project-card h3 {
+    color: #e96be9;
+    margin-top:0px;
+}
+.project-card p {
+    color: #555;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.project-card a {
+    display: inline-block;
+    padding: 8px;
+    background-color: #dd95d7;
+    font-weight: bold;
+    color: #f5f4f5;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.project-card a:hover {
+    background-color: #e96be9;
+    color: white;
+}
+
+nav {
+    background-color: #eee;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    margin: none;
+    gap: 20px;
+
+}
+
+.navbar > li > a {
+    color: #e96be9 ;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 6px 12px;
+    transition: background-color 0.2s ease;
+
+}
+.navbar > li > a:hover {
+    background-color: #e96be9;
+    color: white;
 }
